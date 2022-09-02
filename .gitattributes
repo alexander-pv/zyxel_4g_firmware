@@ -1,0 +1,2 @@
+KEENETIC_4G-V1.10.A.RU.NDMS_disk_prn.bin filter=lfs diff=lfs merge=lfs -text
+ext_init_4g.tar.gz filter=lfs diff=lfs merge=lfs -text
