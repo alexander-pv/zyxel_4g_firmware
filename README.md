@@ -10,5 +10,9 @@ Unofficial Zyxel 4G firmware forked from `Dr.Acid`, source: http://forum.zyxmon.
 ```bash
 $ ssh -o KexAlgorithms=diffie-hellman-group1-sha1 root@192.168.1.1
 ```
-
+6. Update opkg: add to `/media/DISK_A1/system/etc/opkg.conf` new address: `http://zyxware.zyxmon.org/binary-packages-r2`
+```bash
+$ opkg update && opkg upgrade
+$ opkg install openssl
+```
 
